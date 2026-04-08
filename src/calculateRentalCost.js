@@ -6,7 +6,13 @@
  */
 function calculateRentalCost(days) {
 const desc;
-if(days==3){
+  
+if(days<3){
+ days = days * 40;
+}
+
+  
+if(days=>3 && days<6){
  days = 3 * 40 - 20;
 }
 
