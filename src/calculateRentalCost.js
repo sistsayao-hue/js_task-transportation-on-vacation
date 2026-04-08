@@ -1,12 +1,13 @@
 /**
  * @param {number} days
- *$40
+ *$40 7
+ $20 3
  * @return {number}
  */
 function calculateRentalCost(days) {
 const desc;
 if(days==3){
-
+ days = 3 * 40 - 20;
 }
 
 if(days==6){
