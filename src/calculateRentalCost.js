@@ -6,7 +6,7 @@
  */
 
 function calculateRentalCost(days) {
-const desc = 0;
+let desc = 0;
   
 if(days<3){
  desc = days * 40;
