@@ -4,6 +4,7 @@
  $20 3
  * @return {number}
  */
+
 function calculateRentalCost(days) {
 const desc = 0;
   
@@ -12,8 +13,8 @@ if(days<3){
 }
 
   
-if(days=>3 && days<=6){
- desc = 3 * 40 - 20;
+if(days>=3 && days<=6){
+ desc = days * 40 - 20;
 }
 
 if(days==6){
@@ -22,7 +23,7 @@ if(days==6){
 
 if(days>=7){
 
-  desc = 7 * 40 - 50;
+  desc = days * 40 - 50;
 
 }
 
