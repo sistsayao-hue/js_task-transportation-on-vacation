@@ -17,9 +17,7 @@ if(days>=3 && days<=6){
  desc = days * 40 - 20;
 }
 
-if(days==6){
 
-}
 
 if(days>=7){
 
